@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50156C0B1A2A1CEC00C36E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50156C0A1A2A1CEC00C36E06 /* AppDelegate.swift */; };
+		50156C0E1A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50156C0C1A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame.xcdatamodeld */; };
+		50156C101A2A1CEC00C36E06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50156C0F1A2A1CEC00C36E06 /* ViewController.swift */; };
+		50156C131A2A1CEC00C36E06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50156C111A2A1CEC00C36E06 /* Main.storyboard */; };
+		50156C151A2A1CEC00C36E06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50156C141A2A1CEC00C36E06 /* Images.xcassets */; };
+		50156C181A2A1CEC00C36E06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50156C161A2A1CEC00C36E06 /* LaunchScreen.xib */; };
+		50156C241A2A1CEC00C36E06 /* SwiftAppleWatchBettingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50156C231A2A1CEC00C36E06 /* SwiftAppleWatchBettingGameTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50156C1E1A2A1CEC00C36E06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50156BFD1A2A1CEC00C36E06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50156C041A2A1CEC00C36E06;
+			remoteInfo = SwiftAppleWatchBettingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50156C051A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAppleWatchBettingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50156C091A2A1CEC00C36E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50156C0A1A2A1CEC00C36E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50156C0D1A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftAppleWatchBettingGame.xcdatamodel; sourceTree = "<group>"; };
+		50156C0F1A2A1CEC00C36E06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50156C121A2A1CEC00C36E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50156C141A2A1CEC00C36E06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50156C171A2A1CEC00C36E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		50156C1D1A2A1CEC00C36E06 /* SwiftAppleWatchBettingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAppleWatchBettingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50156C221A2A1CEC00C36E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50156C231A2A1CEC00C36E06 /* SwiftAppleWatchBettingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppleWatchBettingGameTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50156C021A2A1CEC00C36E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50156C1A1A2A1CEC00C36E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50156BFC1A2A1CEC00C36E06 = {
+			isa = PBXGroup;
+			children = (
+				50156C071A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame */,
+				50156C201A2A1CEC00C36E06 /* SwiftAppleWatchBettingGameTests */,
+				50156C061A2A1CEC00C36E06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50156C061A2A1CEC00C36E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50156C051A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame.app */,
+				50156C1D1A2A1CEC00C36E06 /* SwiftAppleWatchBettingGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50156C071A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame */ = {
+			isa = PBXGroup;
+			children = (
+				50156C0A1A2A1CEC00C36E06 /* AppDelegate.swift */,
+				50156C0F1A2A1CEC00C36E06 /* ViewController.swift */,
+				50156C111A2A1CEC00C36E06 /* Main.storyboard */,
+				50156C141A2A1CEC00C36E06 /* Images.xcassets */,
+				50156C161A2A1CEC00C36E06 /* LaunchScreen.xib */,
+				50156C0C1A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame.xcdatamodeld */,
+				50156C081A2A1CEC00C36E06 /* Supporting Files */,
+			);
+			path = SwiftAppleWatchBettingGame;
+			sourceTree = "<group>";
+		};
+		50156C081A2A1CEC00C36E06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50156C091A2A1CEC00C36E06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50156C201A2A1CEC00C36E06 /* SwiftAppleWatchBettingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				50156C231A2A1CEC00C36E06 /* SwiftAppleWatchBettingGameTests.swift */,
+				50156C211A2A1CEC00C36E06 /* Supporting Files */,
+			);
+			path = SwiftAppleWatchBettingGameTests;
+			sourceTree = "<group>";
+		};
+		50156C211A2A1CEC00C36E06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50156C221A2A1CEC00C36E06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50156C041A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50156C271A2A1CEC00C36E06 /* Build configuration list for PBXNativeTarget "SwiftAppleWatchBettingGame" */;
+			buildPhases = (
+				50156C011A2A1CEC00C36E06 /* Sources */,
+				50156C021A2A1CEC00C36E06 /* Frameworks */,
+				50156C031A2A1CEC00C36E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftAppleWatchBettingGame;
+			productName = SwiftAppleWatchBettingGame;
+			productReference = 50156C051A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50156C1C1A2A1CEC00C36E06 /* SwiftAppleWatchBettingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50156C2A1A2A1CEC00C36E06 /* Build configuration list for PBXNativeTarget "SwiftAppleWatchBettingGameTests" */;
+			buildPhases = (
+				50156C191A2A1CEC00C36E06 /* Sources */,
+				50156C1A1A2A1CEC00C36E06 /* Frameworks */,
+				50156C1B1A2A1CEC00C36E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50156C1F1A2A1CEC00C36E06 /* PBXTargetDependency */,
+			);
+			name = SwiftAppleWatchBettingGameTests;
+			productName = SwiftAppleWatchBettingGameTests;
+			productReference = 50156C1D1A2A1CEC00C36E06 /* SwiftAppleWatchBettingGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50156BFD1A2A1CEC00C36E06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Albert Saucedo";
+				TargetAttributes = {
+					50156C041A2A1CEC00C36E06 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					50156C1C1A2A1CEC00C36E06 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 50156C041A2A1CEC00C36E06;
+					};
+				};
+			};
+			buildConfigurationList = 50156C001A2A1CEC00C36E06 /* Build configuration list for PBXProject "SwiftAppleWatchBettingGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50156BFC1A2A1CEC00C36E06;
+			productRefGroup = 50156C061A2A1CEC00C36E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50156C041A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame */,
+				50156C1C1A2A1CEC00C36E06 /* SwiftAppleWatchBettingGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50156C031A2A1CEC00C36E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50156C131A2A1CEC00C36E06 /* Main.storyboard in Resources */,
+				50156C181A2A1CEC00C36E06 /* LaunchScreen.xib in Resources */,
+				50156C151A2A1CEC00C36E06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50156C1B1A2A1CEC00C36E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50156C011A2A1CEC00C36E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50156C101A2A1CEC00C36E06 /* ViewController.swift in Sources */,
+				50156C0E1A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame.xcdatamodeld in Sources */,
+				50156C0B1A2A1CEC00C36E06 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50156C191A2A1CEC00C36E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50156C241A2A1CEC00C36E06 /* SwiftAppleWatchBettingGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50156C1F1A2A1CEC00C36E06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50156C041A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame */;
+			targetProxy = 50156C1E1A2A1CEC00C36E06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50156C111A2A1CEC00C36E06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50156C121A2A1CEC00C36E06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50156C161A2A1CEC00C36E06 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50156C171A2A1CEC00C36E06 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50156C251A2A1CEC00C36E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50156C261A2A1CEC00C36E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50156C281A2A1CEC00C36E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftAppleWatchBettingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50156C291A2A1CEC00C36E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftAppleWatchBettingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50156C2B1A2A1CEC00C36E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftAppleWatchBettingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAppleWatchBettingGame.app/SwiftAppleWatchBettingGame";
+			};
+			name = Debug;
+		};
+		50156C2C1A2A1CEC00C36E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftAppleWatchBettingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAppleWatchBettingGame.app/SwiftAppleWatchBettingGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50156C001A2A1CEC00C36E06 /* Build configuration list for PBXProject "SwiftAppleWatchBettingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50156C251A2A1CEC00C36E06 /* Debug */,
+				50156C261A2A1CEC00C36E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50156C271A2A1CEC00C36E06 /* Build configuration list for PBXNativeTarget "SwiftAppleWatchBettingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50156C281A2A1CEC00C36E06 /* Debug */,
+				50156C291A2A1CEC00C36E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50156C2A1A2A1CEC00C36E06 /* Build configuration list for PBXNativeTarget "SwiftAppleWatchBettingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50156C2B1A2A1CEC00C36E06 /* Debug */,
+				50156C2C1A2A1CEC00C36E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50156C0C1A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50156C0D1A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame.xcdatamodel */,
+			);
+			currentVersion = 50156C0D1A2A1CEC00C36E06 /* SwiftAppleWatchBettingGame.xcdatamodel */;
+			path = SwiftAppleWatchBettingGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50156BFD1A2A1CEC00C36E06 /* Project object */;
+}
